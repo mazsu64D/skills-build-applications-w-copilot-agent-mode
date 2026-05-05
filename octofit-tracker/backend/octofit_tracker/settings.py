@@ -29,7 +29,7 @@ SECRET_KEY = 'django-insecure-&%09m-gh$%ibysp#*^q^^=#**11bk183i*l6vfs&$3qcl52l3c
 DEBUG = True
 
 
-# Allow all hosts
+# Allow all hosts the "-8000.app.github.dev" part is added dynamically in urls.py based on the CODESPACE_NAME environment variable
 ALLOWED_HOSTS = ['*', os.getenv('CODESPACE_NAME', '')]
 
 
