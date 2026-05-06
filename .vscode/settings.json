@@ -1,0 +1,6 @@
+{
+  "python.terminal.useEnvFile": true,
+  "terminal.integrated.env.linux": {
+    "REACT_APP_CODESPACE_NAME": "${env:CODESPACE_NAME}"
+  }
+}
